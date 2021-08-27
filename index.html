@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <header>
+        <h1>To do List</h1>
+    </header>
+
+    <form>
+        <div
+            class="search-place">
+            <input
+                type="text"
+                placeholder="Enter todo"
+                class="todo-input">
+            <button
+                type="button"
+                class="todo-button">
+                <i
+                    class="fas fa-plus-square"></i>
+            </button>
+        </div>
+
+        <div class="select">
+            <select
+                name="todos"
+                id="filter-todo">
+                <option
+                    value="all">
+                    All
+                </option>
+                <option
+                    value="uncomplated">
+                    Uncomplated
+                </option>
+                <option
+                    value="complated">
+                    Complated
+                </option>
+            </select>
+        </div>
+    </form>
+    <div class="header"
+        id="header">
+        <p>No element.Please
+            input element!
+        </p>
+    </div>
+    <div class="container">
+        <ul class="todo-list"></ul>
+    </div>
+</body>
+<script
+    src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ece708f061.js" crossorigin="anonymous"></script>
+
+</html>
